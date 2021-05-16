@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylemain.css">
+  <script defer src="face-api.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script defer src="script.js"></script>
+
+  <style>
+    /* body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+    canvas {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+
+
+<center>
+  <div class="btnn">
+      <button type="button" name="button" onclick="chartstart();">START</button>
+<button type="button" name="button" onclick="drawChart(), mylinkfunction();">STOP</button>
+  </div>
+
+    <video id="video" width="300px" height="300px" autoplay muted></video>
+
+    <div id="chartContainer" style="height: 250px; width: 300px;"></div>
+
+
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+  <br>
+<div id="piechart">
+
+</div>
+</center>
+</body>
+</html>
