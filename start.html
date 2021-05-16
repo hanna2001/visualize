@@ -28,24 +28,56 @@
 </head>
 <body>
 
+<script>function myFunction() {
+  var image = document.getElementById('myImage1');
+           if (image.src.match("https://cdn.discordapp.com/attachments/798212050496126976/843450661974441994/image_search_1621164670779.png")) {
+               image.src = "https://cdn.discordapp.com/attachments/798212050496126976/843450662150340618/image_search_1621164496239.png";
+           }
+           else {
+               image.src = "https://cdn.discordapp.com/attachments/798212050496126976/843450661974441994/image_search_1621164670779.png";
+           }
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}</script>
 
-<center>
-  <div class="btnn">
-      <button type="button" name="button" onclick="chartstart();">START</button>
-<button type="button" name="button" onclick="drawChart(), mylinkfunction();">STOP</button>
+  <div class="container">
+    <img width="200px" src="https://cdn.discordapp.com/attachments/843006777993330698/843429952287539200/PicsArt_05-16-03.37.55.png"  class="img1" alt="">
+<img id="myImage1" class="toggle" onclick="myFunction()" src="https://cdn.discordapp.com/attachments/798212050496126976/843450662150340618/image_search_1621164496239.png" alt="" height="40px">
+
+
+
   </div>
+  <center>
+    <button type="button" name="button" onclick="chartstart();" class="start">START</button>
+    <button type="button" name="button" onclick="drawChart(), mylinkfunction();" class="start">STOP</button>
 
-    <video id="video" width="300px" height="300px" autoplay muted></video>
+  <div class="btnn">
 
-    <div id="chartContainer" style="height: 250px; width: 300px;"></div>
+</div>
 
+    <div class="float-container">
+      <div class="float-child">
+        <video id="video" width="300px" height="300px" autoplay muted></video>
 
+      </div>
+      <div id="chartContainer" class="float-child" style="height: 200px; width: 300px;"></div>
 
+    </div>
+
+<div class="pie">
+  <div id="piechart">
+</div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
-  <br>
-<div id="piechart">
 
+
+
+<footer>
+<p>
+  Made with ❤ by Hanna, Hamda and Aakash | Source code
+  <a href="github.com/hanna2001/visualize" style="color: white">here</a>
+</p>
+  </footer>
 </div>
 </center>
 </body>

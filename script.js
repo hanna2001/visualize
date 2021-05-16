@@ -48,7 +48,7 @@ video.addEventListener('play', () => {
     canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height)
     // faceapi.draw.drawDetections(canvas, resizedDetections)
     // faceapi.draw.drawFaceLandmarks(canvas, resizedDetections)
-    faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
+    // faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
 
     detections.forEach((detection) => {
 
@@ -212,7 +212,9 @@ function drawChart() {
 ]);
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':'Emotions Analysis', 'width':550, 'height':400};
+  var options = { 'width':550, 'height':400 , backgroundColor: 'transparent', chartArea: {width: 500, height: 500}
+
+};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
