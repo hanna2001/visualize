@@ -4,7 +4,14 @@
     margin-bottom: 0%;
 }
 body{
-    background-color: white;
+  background-image: linear-gradient(#8d87f5,#e487f6);
+  background-attachment: fixed
+}
+h3 {
+  color: antiquewhite;
+  font-style: oblique;
+  text-align: center;
+  margin-top: auto;
 }
 .header{
     padding: 20px;  
@@ -28,20 +35,25 @@ footer{
     text-align: center;
     margin-top: 25%;
     position: fixed;
-    bottom: 0px;
     width: 100%;
+    color: gray;
+    left: 0;
+    bottom: 0;
+ 
 }
 a{
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 .start{
     background-color: rebeccapurple;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    margin-top: 10%;
-    margin-left: 20%;
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 23%;
+    margin-left: 30%;
     color: white;
 }
 .headerbutton {
