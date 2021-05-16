@@ -13,6 +13,23 @@ h3 {
   text-align: center;
   margin-top: auto;
 }
+h2 {
+
+  color : rebeccapurple;
+  font-weight:900;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+h4 {
+
+  color : #793a57;
+  font-weight:900;
+  padding-left: 40px;
+}
+
+
+
 .header{
     padding: 20px;
 }
@@ -30,6 +47,19 @@ h3 {
     height: 400px;
     float: right;
 }
+
+.vector{
+    padding-right:20%;
+    padding-top: 0;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-right: 0px;
+    width : 300px;
+    height: 200px;
+    float: left;
+}
+
+
 button:hover{
     border: none;
 }
@@ -75,8 +105,18 @@ a{
   }
   #about{
       padding: 40px;
+      line-height: 2;
+      text-align:center;
   }
 
   button{
     cursor: pointer;
   }
+
+
+.desc{
+
+  line-height: 2;
+  margin-left: 50px;
+  padding-left: 20px;
+}
