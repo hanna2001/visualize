@@ -73,6 +73,9 @@ a{
     margin: 4px 2px;
 
   }
+  #about{
+      padding: 40px;
+  }
 
   button{
     cursor: pointer;
