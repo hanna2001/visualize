@@ -1,16 +1,16 @@
-
+.logo-icon{
+    width: 50px;
+    position: relative;
+    margin-bottom: 0%;
+}
+body{
+    background-color: white;
+}
 .header{
-    /* background-color: antiquewhite; */
     padding: 20px;  
 }
-/* .about{
-    border-top: 0ch;
-    border-left: 0ch;
-    border-bottom: 0ch;
-} */
+
 .title{
-    /* margin: 20px; */
-    /* text-align: center; */
     padding-left: 15%;
     padding-top: 5%;
     height: 50px;
@@ -45,7 +45,8 @@ a{
     color: white;
 }
 .headerbutton {
-    border-top: 0ch;
+    border-color: black;
+    border-bottom: 0ch;
     border-left: 0ch;
     border-right: 0ch;
     background-color:white;
@@ -55,5 +56,9 @@ a{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    
+  }
+
+  button{
     cursor: pointer;
   }
