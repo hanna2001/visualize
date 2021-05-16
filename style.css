@@ -1,0 +1,59 @@
+
+.header{
+    /* background-color: antiquewhite; */
+    padding: 20px;  
+}
+/* .about{
+    border-top: 0ch;
+    border-left: 0ch;
+    border-bottom: 0ch;
+} */
+.title{
+    /* margin: 20px; */
+    /* text-align: center; */
+    padding-left: 15%;
+    padding-top: 5%;
+    height: 50px;
+}
+.logo{
+    padding-right:20%;
+    padding-top: 5%;
+    float: right;
+}
+button:hover{
+    border: none;
+}
+footer{
+    background-color:gray;
+    text-align: center;
+    margin-top: 25%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.start{
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+}
+.headerbutton {
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    background-color:white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
