@@ -14,17 +14,20 @@ h3 {
   margin-top: auto;
 }
 .header{
-    padding: 20px;  
+    padding: 20px;
 }
 
 .title{
     padding-left: 15%;
-    padding-top: 5%;
+    padding-top: 0;
     height: 50px;
 }
 .logo{
     padding-right:20%;
-    padding-top: 5%;
+    padding-top: 0;
+    margin-right: 0px;
+    width : 350px;
+    height: 400px;
     float: right;
 }
 button:hover{
@@ -39,7 +42,7 @@ footer{
     color: gray;
     left: 0;
     bottom: 0;
- 
+
 }
 a{
     text-decoration: none;
@@ -61,14 +64,14 @@ a{
     border-bottom: 0ch;
     border-left: 0ch;
     border-right: 0ch;
-    background-color:white;
+    background-color: #ae87f6;
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    
+
   }
 
   button{
